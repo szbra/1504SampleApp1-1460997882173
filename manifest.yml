@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: stage1.mybluemix.net
+  name: 1504SampleApp1
+  host: 1504SampleApp1
+  disk_quota: 1024M
+  services:
+  - 1504SampleApp1-DataCache
+  - 1504SampleApp1-MonitoringAndAnalytics
